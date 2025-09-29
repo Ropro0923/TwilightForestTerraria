@@ -1,9 +1,10 @@
 This mod aims to bring the Twilight Forest into Terraria.
 Twilight Forest is one of the greatest mods in all of Minecraft, it adds dungeons, bosses, treasure, and structures.
+I am looking for localisers, so if you are interested, feel free to DM Ropro0923.
 
 Source Code: https://github.com/Ropro0923/TwilightForestTerraria
 
-You can find me in the Community Souls Expansion / Thrower Unification / Cat Tech or the Infernal Eclipse of Ragnarok discord servers
+You can find Ropro0923 in the Community Souls Expansion / Thrower Unification / Cat Tech or the Infernal Eclipse of Ragnarok discord servers
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3329620648&searchtext=community] CSE[/url] / [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309] Thrower Unification[/url] / CatTech[/url]
 https://discord.gg/frUcz2dQAy
 
@@ -22,7 +23,7 @@ Special Thanks to:
 	[*] Benimatic, Killer Demon, Drullkus, Tamaized, Squiggly_Androsa, Gizmo the Moon Pig
     [*] jodlodi, mitchej123, MrCompost,  williewillus, and AtomicBlom
     [*] The developer of Subworld Library, John Snail
-    [*] GabeHasWon, as I have used his mod as an example as to how to make a Subworld
+    [*] GabeHasWon, as I learned how to make subworlds by looking at his Abyssal Subworld mod
 [/list]
 
 Any inquiries or concerns the mod can be sent to Ropro0923.
