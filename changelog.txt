@@ -1,8 +1,4 @@
 v0.1
-Added Arctic Hood, Jacket, and Leggings
-Added Arctic Fur - Sprite Needed
-Added Fiery Helmet, Fiery Chestplate, and Fiery Leggings
-Added Fiery Steel
-Added Fiery Blood
-Added Liveroot tile - Sprite Needed
-Added Liveroot item - Sprite needed
+Added Naga Scales
+Added Naga Trophy
+Added Naga Scale Armour

@@ -1,55 +1,31 @@
 Items: {
-	ArcticHood: {
-		DisplayName: Arctic Hood
-		Tooltip: A hood made of fur to keep you warm.
+	NagaTrophy: {
+		DisplayName: Naga Trophy
+		Tooltip: ""
 	}
 
-	ArcticJacket: {
-		DisplayName: Arctic Jacket
-		Tooltip: A jacket filled with fur to keep you warm.
+	NagaScales: {
+		DisplayName: Naga Scales
+		Tooltip: ""
 	}
 
-	ArcticLeggings: {
-		DisplayName: Arctic Leggings
-		Tooltip: A pair of leggings covered in fur to keep you warm.
+	NagaScaleHelmet: {
+		DisplayName: Naga Scale Helmet
+		Tooltip: ""
 	}
 
-	ArcticFur: {
-		DisplayName: Arctic Fur
-		Tooltip: Fur from beasts in the arctic wasteland.
+	NagaScaleLeggings: {
+		DisplayName: Naga Scale Leggings
+		Tooltip: ""
 	}
 
-	FieryChestplate: {
-		DisplayName: Fiery Chestplate
-		Tooltip: A blazing chestplate made from fiery steel
-	}
-
-	FieryHelmet: {
-		DisplayName: Fiery Helmet
-		Tooltip: A blistering helmet made from fiery steel
-	}
-
-	FieryLeggings: {
-		DisplayName: Fiery Leggings
-		Tooltip: A burning pair of leggings made from fiery steel
-	}
-
-	FierySteel: {
-		DisplayName: Fiery Steel
-		Tooltip: Steel superheated by the blood of great monsters
-	}
-
-	FieryBlood: {
-		DisplayName: Fiery Blood
-		Tooltip: Scorching blood from powerful beasts
-	}
-
-	Liveroot: {
-		DisplayName: Liveroot
-		Tooltip: Roots harvested from the ground
+	NagaScaleTunic: {
+		DisplayName: Naga Scale Tunic
+		Tooltip: ""
 	}
 }
 
-WorldGeneration.OreGeneration.LiverootGenerating: Liveroot generating
-SetBonus.Fiery: Enemies that hit you get ignited.
-Tiles.Liveroots.MapEntry: Liveroots
+SetBonus: {
+	NagaScale: You are immune to fire and poison
+	Fiery: ""
+}
