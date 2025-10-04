@@ -11,7 +11,7 @@ namespace TwilightForestTerraria.Content.Items.Armour.NagaScale
 			Item.height = 18;
 			Item.rare = ItemRarityID.Blue;
 			Item.defense = 8;
-			Item.value = Item.sellPrice(0, 0, 30, 0);
+			Item.value = Item.sellPrice(0, 0, 1, 12) * 30;
 		}
 		public override void AddRecipes()
 		{

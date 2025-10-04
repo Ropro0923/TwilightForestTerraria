@@ -1,4 +1,55 @@
 v0.1
-Added Naga Scales
-Added Naga Trophy
-Added Naga Scale Armour
+Added Icon - Sprite needed - Mini sprite needed
+Added Naga Scales - Item sprite needed
+Added Naga Scale Helmet - Item sprite needed - Head sprite needed
+Added Naga Scale Tunic - Item sprite needed - Body sprite needed
+Added Naga Scale Leggings - Item sprite needed - Legs sprite needed
+Added Naga Trophy - Item sprite needed - Tile sprite needed
+Added Raven Feather - SpRarite needed
+Added Magic Map Focus - Sprite needed
+Added Torchberries - Item sprite needed - Tile sprite needed - Seed sprite needed
+Added Hydra Trophy Item - Sprite Needed
+Added Hydra Trophy Tile - Sprite Needed
+Added Minoshroom Trophy Item - Sprite Needed
+Added Minoshroom Trophy Tile - Sprite Needed
+Added Night Phantom Trophy Item - Sprite Needed
+Added Night Phantom Trophy Tile - Sprite Needed
+Added Questing Ram Trophy Item - Sprite Needed
+Added Questing Ram Trophy Tile - Sprite Needed
+Added Snow Queen Trophy Item - Sprite Needed
+Added Snow Queen Trophy Tile - Sprite Needed
+Added Twilight Lich Trophy Item - Sprite Needed
+Added Twilight Lich Trophy Tile - Sprite Needed
+Added Ur-Ghast Trophy Item - Sprite Needed
+Added Ur-Ghast Trophy Tile - Sprite Needed
+Added Arctic Fur - Sprite Needed
+Added Arctic Hood - Item sprite needed - Head sprite needed
+Added Arctic Jacket - Item sprite needed - Body sprite needed
+Added Arctic Leggings - Item sprite needed - Legs sprite needed
+Added Hydra Relic Tile - Sprite Needed - Colored Sprite Need
+Added Minoshroom Relic Tile - Sprite Needed - Colored Sprite Need
+Added Naga Relic Tile - Sprite Needed - Colored Sprite Need
+Added Night Phantom Relic Tile - Sprite Needed - Colored Sprite Need
+Added Questing Ram Relic Tile - Sprite Needed - Colored Sprite Need
+Added Snow Queen Relic Tile - Sprite Needed - Colored Sprite Need
+Added Twilight Lich Relic Tile - Sprite Needed - Colored Sprite Need
+Added Ur-Ghast Relic Tile - Sprite Needed - Colored Sprite Need
+Added Hydra Relic Item - Sprite Needed - Colored Sprite Need
+Added Minoshroom Relic Item - Sprite Needed - Colored Sprite Need
+Added Naga Relic Item - Sprite Needed - Colored Sprite Need
+Added Night Phantom Relic Item - Sprite Needed - Colored Sprite Need
+Added Questing Ram Relic Item - Sprite Needed - Colored Sprite Need
+Added Snow Queen Relic Item - Sprite Needed - Colored Sprite Need
+Added Twilight Lich Relic Item - Sprite Needed - Colored Sprite Need
+Added Ur-Ghast Relic Item - Sprite Needed - Colored Sprite Need
+Added Fiery Blood - Sprite Needed
+Added Fiery Helmet - Sprite Needed - Head Sprite Needed
+Added Fiery Chestplate - Sprite Needed - Body Sprite Needed
+Added Fiery Leggings - Sprite Needed - Legs Sprite Needed
+Added Fiery Bar
+Added Ironwood Helmet - Sprite Needed - Head Sprite Needed
+Added Ironwood Chestplate - Sprite Needed - Body Sprite Needed
+Added Ironwood Leggings - Sprite Needed - Legs Sprite Needed
+Added Ironwood Bar - Sprite Needed
+Added Raw Ironwood Materials - Sprite Needed
+Added Liveroot - Sprite Needed

@@ -10,21 +10,17 @@ namespace TwilightForestTerraria.Content.Items.Armour.NagaScale
 		{
 			Item.width = 18;
 			Item.height = 18;
-			Item.value = Item.sellPrice(0, 0, 20, 0);
+			Item.value = Item.sellPrice(0, 0, 1, 12) * 20;
 			Item.rare = ItemRarityID.Blue;
 			Item.defense = 7;
 		}
 		public override bool IsArmorSet(Item head, Item body, Item legs) => body.type == ModContent.ItemType<NagaScaleTunic>() && legs.type == ModContent.ItemType<NagaScaleLeggings>();
 		public override void UpdateArmorSet(Player player)
 		{
-			player.setBonus = GetSetBonusString();
+			player.setBonus = Language.GetTextValue("Mods.TwilightForestTerraria.SetBonus.NagaScale");
 			player.buffImmune[BuffID.OnFire] = true;
 			player.buffImmune[BuffID.Poisoned] = true;
 		}
-        public static string GetSetBonusString()
-        {
-            return Language.GetTextValue("Mods.TwilightForestTerraria.SetBonus.NagaScale");
-        }
 		public override void AddRecipes()
 		{
 			CreateRecipe()

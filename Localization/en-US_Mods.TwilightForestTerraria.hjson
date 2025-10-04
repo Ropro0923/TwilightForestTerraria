@@ -6,26 +6,216 @@ Items: {
 
 	NagaScales: {
 		DisplayName: Naga Scales
-		Tooltip: ""
+		Tooltip: Scales dropped by Naga
 	}
 
 	NagaScaleHelmet: {
 		DisplayName: Naga Scale Helmet
-		Tooltip: ""
+		Tooltip: A helmet made from Naga's Scales
 	}
 
 	NagaScaleLeggings: {
 		DisplayName: Naga Scale Leggings
-		Tooltip: ""
+		Tooltip: A pair of leggings made from Naga's Scales
 	}
 
 	NagaScaleTunic: {
 		DisplayName: Naga Scale Tunic
+		Tooltip: A tunic made from Naga's Scales
+	}
+
+	MagicMapFocus: {
+		DisplayName: Magic Map Focus
+		Tooltip: A magic focus used to mark points of interest on the map.
+	}
+
+	Torchberries: {
+		DisplayName: Torchberries
+		Tooltip: ""
+	}
+
+	RavenFeather: {
+		DisplayName: Raven Feather
+		Tooltip: ""
+	}
+
+	TorchberrySeeds: {
+		DisplayName: Torchberry Seeds
+		Tooltip: ""
+	}
+
+	HydraTrophy: {
+		DisplayName: Hydra Trophy
+		Tooltip: ""
+	}
+
+	MinoshroomTrophy: {
+		DisplayName: Minoshroom Trophy
+		Tooltip: ""
+	}
+
+	NightPhantomTrophy: {
+		DisplayName: Night Phantom Trophy
+		Tooltip: ""
+	}
+
+	QuestingRamTrophy: {
+		DisplayName: Questing Ram Trophy
+		Tooltip: ""
+	}
+
+	SnowQueenTrophy: {
+		DisplayName: Snow Queen Trophy
+		Tooltip: ""
+	}
+
+	TwilightLichTrophy: {
+		DisplayName: Twilight Lich Trophy
+		Tooltip: ""
+	}
+
+	UrGhastTrophy: {
+		DisplayName: Ur-Ghast Trophy
+		Tooltip: ""
+	}
+
+	ArcticFur: {
+		DisplayName: Arctic Fur
+		Tooltip: Fur from beasts in the snowy forest
+	}
+
+	ArcticHood: {
+		DisplayName: Arctic Hood
+		Tooltip: A hood made of fur to keep you warm
+	}
+
+	ArcticJacket: {
+		DisplayName: Arctic Jacket
+		Tooltip: A warm jacket made of fur
+	}
+
+	ArcticLeggings: {
+		DisplayName: Arctic Leggings
+		Tooltip: A pair of warm leggings
+	}
+
+	UrGhastRelic: {
+		Tooltip: ""
+		DisplayName: Ur-Ghast Relic
+	}
+
+	TwilightLichRelic: {
+		Tooltip: ""
+		DisplayName: Twilight Lich Relic
+	}
+
+	SnowQueenRelic: {
+		Tooltip: ""
+		DisplayName: Snow Queen Relic
+	}
+
+	QuestingRamRelic: {
+		Tooltip: ""
+		DisplayName: Questing Ram Relic
+	}
+
+	NightPhantomRelic: {
+		Tooltip: ""
+		DisplayName: Night Phantom Relic
+	}
+
+	NagaRelic: {
+		Tooltip: ""
+		DisplayName: Naga Relic
+	}
+
+	MinoshroomRelic: {
+		Tooltip: ""
+		DisplayName: Minoshroom Relic
+	}
+
+	HydraRelic: {
+		Tooltip: ""
+		DisplayName: Hydra Relic
+	}
+
+	FieryHelmet: {
+		DisplayName: Fiery Helmet
+		Tooltip: A blazing helmet made from fiery steel
+	}
+
+	FieryChestplate: {
+		DisplayName: Fiery Chestplate
+		Tooltip: A blistering chestplate made from fiery steel
+	}
+
+	FieryLeggings: {
+		DisplayName: Fiery Leggings
+		Tooltip: A burning pair of leggings made from fiery steel
+	}
+
+	FieryBlood: {
+		DisplayName: Fiery Blood
+		Tooltip: Superheated blood dropped by the Hydra
+	}
+
+	FieryBar: {
+		DisplayName: Fiery Bar
+		Tooltip: Metal that has been superheated by hydra's blood
+	}
+	IronwoodHelmet: {
+		DisplayName: Ironwood Helmet
+		Tooltip: ""
+	}
+
+	IronwoodChestplate: {
+		DisplayName: Ironwood Chestplate
+		Tooltip: ""
+	}
+
+
+	IronwoodLeggings: {
+		DisplayName: Ironwood Leggings
+		Tooltip: ""
+	}
+
+	IronwoodBar: {
+		DisplayName: Ironwood Bar
+		Tooltip: ""
+	}
+
+	Liveroot: {
+		DisplayName: Liveroot
+		Tooltip: ""
+	}
+
+	RawIronwoodMaterials: {
+		DisplayName: Raw Ironwood Materials
 		Tooltip: ""
 	}
 }
 
 SetBonus: {
 	NagaScale: You are immune to fire and poison
-	Fiery: ""
+	Arctic:
+		'''
+		You are immune to cold-based debuffs
+		You can venture through the snowy forest
+		'''
+	Fiery: Enemies that hit you are lit on fire
+	Ironwood: Increased movement speed and jump height
+}
+
+Tiles.TorchberryBush.MapEntry: Torchberry Bush
+
+Configs: {
+	TwilightForestTerrariaConfig: {
+		DisplayName: Main Config
+		Headers.Miscellaneous: Miscellaneous
+
+		ColoredRelics: {
+			Label: Colored Relics
+			Tooltip: ""
+		}
+	}
 }

@@ -3,3 +3,6 @@ author = Ropro0923
 version = 0.1
 hideCode = true
 modReferences = SubworldLibrary
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.dll, *.sln
+includePDB = true
+includeSource = true

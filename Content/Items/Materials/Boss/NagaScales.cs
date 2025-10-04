@@ -8,7 +8,7 @@ namespace TwilightForestTerraria.Content.Items.Materials.Boss
 			Item.height = 20;
 			Item.rare = ItemRarityID.Blue;
 			Item.maxStack = Item.CommonMaxStack;
-			Item.value = Item.sellPrice(0, 0, 1, 0);
+			Item.value = Item.sellPrice(0, 0, 1, 12);
 		}
 	}
 }
