@@ -5,30 +5,30 @@ using TwilightForestTerraria.Content.Items.Materials.Crafting;
 namespace TwilightForestTerraria.Content.Items.Armour.Fiery
 {
 	[AutoloadEquip(EquipType.Head)]
-	public class FieryHelmetMelee : ModItem
+	public class FieryHelmet : ModItem
 	{
 		public override void SetDefaults()
 		{
 			Item.width = 20;
 			Item.height = 18;
-			Item.value = ItemValue.SellPrices.FieryBar * 12;
+			Item.value = ItemValue.SellPrices.FieryBar * 20;
 			Item.rare = ItemRarityID.Pink;
-			Item.defense = 16;
+			Item.defense = 8;
 		}
 		public override void UpdateEquip(Player player)
 		{
-			player.GetDamage(DamageClass.Melee) += 0.20f;
-			player.GetCritChance(DamageClass.Melee) += 0.05f;
+			player.GetDamage(DamageClass.Ranged) += 0.20f;
+			player.GetModPlayer<TwilightForestTerrariaPlayer>().FieryRanged = true;
         }
 		public override bool IsArmorSet(Item head, Item body, Item legs) => body.type == ModContent.ItemType<FieryChestplate>() && legs.type == ModContent.ItemType<FieryBoots>();
 		public override void UpdateArmorSet(Player player)
 		{
-			player.setBonus = Language.GetTextValue("Mods.TwilightForestTerraria.SetBonus.FieryMelee");
+			player.setBonus = Language.GetTextValue("Mods.TwilightForestTerraria.SetBonus.FieryRanged");
 		}
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient<FieryBar>(12)
+				.AddIngredient<FieryBar>(20)
 				.AddTile(TileID.MythrilAnvil)
 				.Register();
 		}

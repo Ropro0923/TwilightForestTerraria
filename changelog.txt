@@ -1,72 +1,61 @@
 v0.1
-Added Icon - Sprite needed - Mini sprite needed
-Added Naga Scales
-Added Naga Scale Helmet - Item sprite needed - Head sprite needed
-Added Naga Scale Tunic - Item sprite needed - Body sprite needed
-Added Naga Scale Boots - Item sprite needed - Legs sprite needed
-Added Naga Trophy - Item sprite needed - Tile sprite needed
+Added Mod Icon - Sprite needed - Mini sprite needed
+Added Arctic Hood - Sprite needed - Head sprite needed
+Added Arctic Jacket - Sprite needed - Body sprite needed
+Added Arctic Boots - Sprite needed - Legs sprite needed
+Added Arctic Fur - Sprite needed
+Added Fiery Helmet - Sprite needed - Head sprite needed
+Added Fiery Mask - Sprite needed - Head sprite needed
+Added Fiery Chestplate - Sprite needed - Body sprite needed
+Added Fiery Boots - Sprite needed - Legs sprite needed
+Added Fiery Bar
+Added Fiery Bar tile
+Added Fiery Blood
+Added Ironwood Helmet - Sprite needed - Head sprite needed
+Added Ironwood Chestplate - Sprite needed - Body sprite needed
+Added Ironwood Boots - Sprite needed - Legs sprite needed
+Added Ironwood Bar - Sprite needed
+Added Ironwood Bar tile
+Added Raw Ironwood Materials - Sprite needed
+Added Liveroot - Sprite needed
+Added Knightly Helmet - Sprite needed - Head sprite needed
+Added Knightly Chestplate - Sprite needed - Body sprite needed
+Added Knightly Boots - Sprite needed - Legs sprite needed
+Added Knightmetal Bar - Sprite needed
+Added Knightmetal Bar tile
+Added Armour Shard Cluster - Sprite needed
+Added Armour Shard - Sprite needed
+Added Naga Scale Helmet - Sprite needed - Head sprite needed
+Added Naga Scale Chestplate - Sprite needed - Body sprite needed
+Added Naga Scale Boots - Sprite needed - Legs sprite needed
+Added Naga Scale - Sprite needed
+Added Phantom Helmet - Sprite needed - Head sprite needed
+Added Phantom Chestplate - Sprite needed - Body sprite needed
+Added Phantom Boots - Sprite needed - Legs sprite needed
+Added Steeleaf Hat - Sprite needed - Head sprite needed
+Added Steeleaf Headgear - Sprite needed - Head sprite needed
+Added Steeleaf Chestplate - Sprite needed - Body sprite needed
+Added Steeleaf Boots - Sprite needed - Legs sprite needed
+Added Steeleaf - Sprite needed
+Added Yeti Horned Helm - Sprite needed - Head sprite needed
+Added Yeti Jacket - Sprite needed - Body sprite needed
+Added Yeti Boots - Sprite needed - Legs sprite needed
+Added Alpha Yeti Fur - Sprite needed
 Added Raven Feather
 Added Magic Map Focus
-Added Hydra Trophy Item - Sprite Needed
-Added Hydra Trophy Tile - Sprite Needed
-Added Minoshroom Trophy Item - Sprite Needed
-Added Minoshroom Trophy Tile - Sprite Needed
-Added Night Phantom Trophy Item - Sprite Needed
-Added Night Phantom Trophy Tile - Sprite Needed
-Added Questing Ram Trophy Item - Sprite Needed
-Added Questing Ram Trophy Tile - Sprite Needed
-Added Snow Queen Trophy Item - Sprite Needed
-Added Snow Queen Trophy Tile - Sprite Needed
-Added Twilight Lich Trophy Item - Sprite Needed
-Added Twilight Lich Trophy Tile - Sprite Needed
-Added Ur-Ghast Trophy Item - Sprite Needed
-Added Ur-Ghast Trophy Tile - Sprite Needed
-Added Arctic Fur
-Added Arctic Hood - Item sprite needed - Head sprite needed
-Added Arctic Jacket - Item sprite needed - Body sprite needed
-Added Arctic Boots - Item sprite needed - Legs sprite needed
-Added Hydra Relic Tile - Sprite Needed - Colored Sprite Need
-Added Minoshroom Relic Tile - Sprite Needed - Colored Sprite Need
-Added Naga Relic Tile - Sprite Needed - Colored Sprite Need
-Added Night Phantom Relic Tile - Sprite Needed - Colored Sprite Need
-Added Questing Ram Relic Tile - Sprite Needed - Colored Sprite Need
-Added Snow Queen Relic Tile - Sprite Needed - Colored Sprite Need
-Added Twilight Lich Relic Tile - Sprite Needed - Colored Sprite Need
-Added Ur-Ghast Relic Tile - Sprite Needed - Colored Sprite Need
-Added Hydra Relic Item - Sprite Needed - Colored Sprite Need
-Added Minoshroom Relic Item - Sprite Needed - Colored Sprite Need
-Added Naga Relic Item - Sprite Needed - Colored Sprite Need
-Added Night Phantom Relic Item - Sprite Needed - Colored Sprite Need
-Added Questing Ram Relic Item - Sprite Needed - Colored Sprite Need
-Added Snow Queen Relic Item - Sprite Needed - Colored Sprite Need
-Added Twilight Lich Relic Item - Sprite Needed - Colored Sprite Need
-Added Ur-Ghast Relic Item - Sprite Needed - Colored Sprite Need
-Added Fiery Blood
-Added Fiery Helmet - Sprite Needed - Head Sprite Needed
-Added Fiery Chestplate - Sprite Needed - Body Sprite Needed
-Added Fiery Boots - Sprite Needed - Legs Sprite Needed
-Added Fiery Bar
-Added Ironwood Helmet - Sprite Needed - Head Sprite Needed
-Added Ironwood Chestplate - Sprite Needed - Body Sprite Needed
-Added Ironwood Boots - Sprite Needed - Legs Sprite Needed
-Added Ironwood Bar - Sprite Needed
-Added Raw Ironwood Materials - Sprite Needed
-Added Liveroot - Sprite Needed
-Added Knightly Helmet - Sprite Needed - Head Sprite Needed
-Added Knightly Chestplate - Sprite Needed - Body Sprite Needed
-Added Knightly Boots - Sprite Needed - Legs Sprite Needed
-Added Knightmetal Bar - Sprite Needed
-Added Armor shard
-Added Armor shard cluster
-Added Fiery Bar Placed Tile 
-Added Ironwood Bar Placed Tile
-Added Knightmetal Bar Placed Tile 
-Added Fiery Mask - Sprite needed - Head sprite needed
-Added Phantom Helmet - Sprite Needed - Head Sprite Needed
-Added Phantom Chestplate - Sprite Needed - Body Sprite Needed
-Added Phantom Boots - Sprite Needed - Legs Sprite Needed
-Added Steeleaf Hat - Sprite Needed - Head Sprite Needed
-Added Steeleaf Headpiece - Sprite Needed - Head Sprite Needed
-Added Steeleaf Chestplate - Sprite Needed - Body Sprite Needed
-Added Steeleaf Boots - Sprite Needed - Legs Sprite Needed
-Added Steeleaf - Sprite needed
+Added Hydra Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Minoshroom Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Naga Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Night Phantom Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Questing Ram Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Snow Queen Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Twilight Lich Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Ur-Ghast Relic - Item sprite needed - Colored item sprite needed - Tile sprite needed - Colored tile sprite needed
+Added Hydra Trophy - Item sprite needed - Tile sprite needed
+Added Minoshroom Trophy - Item sprite needed - Tile sprite needed
+Added Naga Trophy - Item sprite needed - Tile sprite needed
+Added Night Phantom Trophy - Item sprite needed - Tile sprite needed
+Added Questing Ram Trophy - Item sprite needed - Tile sprite needed
+Added Snow Queen Trophy - Item sprite needed - Tile sprite needed
+Added Twilight Lich Trophy - Item sprite needed - Tile sprite needed
+Added Ur-Ghast Trophy - Item sprite needed - Tile sprite needed

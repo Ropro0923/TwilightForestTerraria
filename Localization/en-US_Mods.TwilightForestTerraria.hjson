@@ -134,17 +134,17 @@ Items: {
 		DisplayName: Hydra Relic
 	}
 
-	FieryMaskRanged: {
-		DisplayName: Fiery Mask
+	FieryHelmet: {
+		DisplayName: Fiery Helmet
 		Tooltip:
 			'''
 			20% increased ranged damage
-			8% increased ranged critical strike chance
+			20% chance to save ammo
 			'''
 	}
 
-	FieryHelmetMelee: {
-		DisplayName: Fiery Helmet
+	FieryMask: {
+		DisplayName: Fiery Mask
 		Tooltip:
 			'''
 			20% increased melee damage
@@ -152,31 +152,18 @@ Items: {
 			'''
 	}
 
-	SteeleafHeadpieceMagic: {
-		DisplayName: Fiery Headgear
-		Tooltip:
-			'''
-			20% increased magic damage
-			Increases maximum mana by 60 and 15% reduced mana cost
-			'''
-	}
-
 	FieryChestplate: {
 		DisplayName: Fiery Chestplate
 		Tooltip:
 			'''
-			12% increased damage
-			6% increased critical strike chance
+			10% increased damage
+			9% increased critical strike chance
 			'''
 	}
 
 	FieryBoots: {
 		DisplayName: Fiery Boots
-		Tooltip:
-			'''
-			8% increased critical strike chance
-			15% increased movement speed
-			'''
+		Tooltip: 10% increased critical strike chance and movement speed
 	}
 
 	FieryBlood: {
@@ -221,14 +208,18 @@ Items: {
 
 	KnightlyChestplate: {
 		DisplayName: Knightly Chestplate
-		Tooltip: 5% increased melee damage
+		Tooltip:
+			'''
+			8% increased melee damage
+			10% increased melee critical strike chance
+			'''
 	}
 
 	KnightlyHelmet: {
 		DisplayName: Knightly Helmet
 		Tooltip:
 			'''
-			5% increased melee damage
+			18% increased melee damage
 			10% increased melee critical strike chance
 			'''
 	}
@@ -259,37 +250,25 @@ Items: {
 
 	PhantomChestplate: {
 		DisplayName: Phantom Chestplate
-		Tooltip:
-			'''
-			8% increased damage
-			4% increased critical strike chance
-			'''
+		Tooltip: 12% increased melee damage and critical strike chance
 	}
 
 	PhantomHelmet: {
 		DisplayName: Phantom Helmet
-		Tooltip:
-			'''
-			8% increased damage
-			4% increased critical strike chance
-			'''
+		Tooltip: 4% increased melee damage and critical strike chance
 	}
 
 	PhantomBoots: {
 		DisplayName: Phantom Boots
-		Tooltip:
-			'''
-			8% increased damage
-			4% increased critical strike chance
-			'''
+		Tooltip: 4% increased melee damage and critical strike chance
 	}
 
-	SteeleafHatSummon: {
+	SteeleafHat: {
 		DisplayName: Steeleaf Hat
 		Tooltip:
 			'''
-			20% increased summon damage
-			8% increased summon critical strike chance
+			7% increased summon damage
+			Increases your max number of minions by 1
 			'''
 	}
 
@@ -297,8 +276,9 @@ Items: {
 		DisplayName: Steeleaf Chestplate
 		Tooltip:
 			'''
-			8% increased damage
-			5% increased critical strike chance
+			6% increased damage
+			5% increased magic critical strike chance
+			Increases your max number of minions by 1
 			'''
 	}
 
@@ -306,8 +286,18 @@ Items: {
 		DisplayName: Steeleaf Boots
 		Tooltip:
 			'''
-			8% increased damage
+			5% increased damage and critical strike chance
+			Increases your max number of minions by 1
 			15% increased movement speed
+			'''
+	}
+
+	SteeleafHeadgear: {
+		DisplayName: Steeleaf Headgear
+		Tooltip:
+			'''
+			18% increased magic damage and 9% increased magic critical strike chance
+			Increases maximum mana by 110
 			'''
 	}
 
@@ -318,17 +308,17 @@ Items: {
 
 	YetiBoots: {
 		DisplayName: Yeti Boots
-		Tooltip: ""
+		Tooltip: 8% increased melee speed
 	}
 
 	YetiHornedHelm: {
 		DisplayName: Yeti Horned Helm
-		Tooltip: ""
+		Tooltip: 7% increased melee critical strike chance
 	}
 
 	YetiJacket: {
 		DisplayName: Yeti Jacket
-		Tooltip: ""
+		Tooltip: 7% increased melee damage
 	}
 
 	AlphaYetiFur: {
@@ -338,27 +328,30 @@ Items: {
 }
 
 SetBonus: {
+	Ironwood: 3 defense and increased movement speed
 	NagaScale: You are immune to fire and poison
-	Arctic:
-		'''
-		You are immune to cold-based debuffs
-		You can venture through the snowy forest
-		'''
 	FieryMelee: Enemies that hit you are lit on fire
-	FieryRanged:
-		'''
-		Enemies that hit you are lit on fire
-		25% chance to save ammo
-		'''
+	FieryRanged: Enemies that hit you are lit on fire
 	SteeleafMagic:
 		'''
-		Enemies that hit you are lit on fire
-		10% increased magic critical strike chance
+
+		4% increased magic damage and critical strike chance
+		15% reduced mana cost
 		'''
-	Ironwood: 3 defense, increased movement speed, and increased jump height
-	Knightly: 5 defense, 5% increased melee damage
-	Phantom: 4% increased damage and critical strike chance
-	SteeleafSummon: 1 extra minion slot and 1 extra sentry slot
+	SteeleafSummon:
+		'''
+
+		Increases summon damage by 10%
+		Increases your max number of turrets by 1
+		'''
+	Knightly: 5 defense, you take 10% less damage
+	Phantom: 10% chance to phase through enemy attacks
+	Yeti:
+	'''
+
+	You are immune to cold based debuffs
+	Getting hit applies various cold based debuffs to your attacker
+	'''
 }
 
 Configs: {

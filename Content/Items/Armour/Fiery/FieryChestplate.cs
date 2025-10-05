@@ -11,13 +11,13 @@ namespace TwilightForestTerraria.Content.Items.Armour.Fiery
 			Item.width = 32;
 			Item.height = 26;
 			Item.rare = ItemRarityID.Pink;
-			Item.defense = 19;
+			Item.defense = 14;
 			Item.value = ItemValue.SellPrices.FieryBar * 30;
 		}
         public override void UpdateEquip(Player player)
         {
-            player.GetDamage(DamageClass.Generic) += 0.12f;
-            player.GetCritChance(DamageClass.Generic) += 0.06f;
+            player.GetDamage(DamageClass.Generic) += 0.10f;
+            player.GetCritChance(DamageClass.Generic) += 0.19f;
         }
 		public override void AddRecipes()
 		{

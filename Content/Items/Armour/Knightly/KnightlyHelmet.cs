@@ -12,19 +12,19 @@ namespace TwilightForestTerraria.Content.Items.Armour.Knightly
 			Item.width = 32;
 			Item.height = 22;
 			Item.value = ItemValue.SellPrices.KnightmetalBar * 20;
-			Item.defense = 30;
-			Item.rare = ItemRarityID.LightRed;
-		}
-		public override void UpdateEquip(Player player)
-		{
-			player.GetCritChance(DamageClass.Melee) += 0.05f;
-			player.GetDamage(DamageClass.Melee) += 0.10f;
+			Item.rare = ItemRarityID.Lime;
+			Item.defense = 20;
 		}
 		public override bool IsArmorSet(Item head, Item body, Item legs) => body.type == ModContent.ItemType<KnightlyChestplate>() && legs.type == ModContent.ItemType<KnightlyBoots>();
+		public override void UpdateEquip(Player player)
+		{
+			player.GetDamage(DamageClass.Melee) += 0.18f;
+			player.GetCritChance(DamageClass.Melee) += 0.10f;
+		}
 		public override void UpdateArmorSet(Player player)
 		{
+			player.GetModPlayer<TwilightForestTerrariaPlayer>().KnightlySet = true;
 			player.statDefense += 5;
-			player.GetDamage(DamageClass.Melee) += 0.05f;
 			player.setBonus = Language.GetTextValue("Mods.TwilightForestTerraria.SetBonus.Knightly");
 		}
 		public override void AddRecipes()

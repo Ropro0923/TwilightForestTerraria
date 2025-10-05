@@ -17,6 +17,8 @@ namespace TwilightForestTerraria.Common
             public static readonly int KnightmetalBar = ArmorShardCluster + ArmorShard;
             public static readonly int AlphaYetiFur = Item.sellPrice(0, 5, 2, 1);
             public static readonly int Steeleaf = Item.sellPrice(0, 3, 1, 0);
+                        public static readonly int PhantomArmor = Item.sellPrice(0, 8, 50, 0);
+
         }
     }
 }

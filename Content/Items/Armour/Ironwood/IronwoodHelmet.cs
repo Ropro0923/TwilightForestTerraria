@@ -20,7 +20,6 @@ namespace TwilightForestTerraria.Content.Items.Armour.Ironwood
 			player.setBonus = Language.GetTextValue("Mods.TwilightForestTerraria.SetBonus.Ironwood");
 			player.statDefense += 3;
 			player.moveSpeed += 0.6f;
-			player.jumpSpeedBoost += 1.5f;
 		}
 		public override void AddRecipes()
 		{

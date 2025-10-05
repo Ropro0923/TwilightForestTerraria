@@ -3,6 +3,6 @@ author = Ropro0923
 version = 0.1
 hideCode = true
 modReferences = SubworldLibrary
-buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.dll, *.sln, Progression, Changelog, *.gitignore, lib\*
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.dll, *.sln, Progression.png, *.gitignore, lib\*, *.gitignore, *.gitattributes
 includePDB = true
 includeSource = true

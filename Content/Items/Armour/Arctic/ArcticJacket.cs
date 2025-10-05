@@ -6,16 +6,11 @@ namespace TwilightForestTerraria.Content.Items.Armour.Arctic
 	[AutoloadEquip(EquipType.Body)]
 	public class ArcticJacket : ModItem
 	{
-		public override void Load()
-		{
-			if (Main.netMode == NetmodeID.Server) 
-				return;
-		}
 		public override void SetDefaults()
 		{
 			Item.width = 34;
 			Item.height = 32;
-			Item.vanity = true;
+			Item.defense = 2;
 			Item.rare = ItemRarityID.Green;
 			Item.value = ItemValue.SellPrices.ArcticFur * 30;
 		}

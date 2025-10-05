@@ -11,11 +11,13 @@ namespace TwilightForestTerraria.Content.Items.Armour.Steeleaf
 			Item.height = 18;
 			Item.value = ItemValue.SellPrices.Steeleaf * 25;
 			Item.rare = ItemRarityID.Pink;
-			Item.defense = 12;
+			Item.defense = 10;
 		}
 		public override void UpdateEquip(Player player)
 		{
-			player.GetCritChance(DamageClass.Generic) += 0.08f;
+			player.maxMinions += 1;
+			player.GetDamage(DamageClass.Generic) += 0.05f;
+			player.GetCritChance(DamageClass.Generic) += 0.05f;
 			player.moveSpeed += 0.15f;
 		}
 		public override void AddRecipes()

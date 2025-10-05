@@ -1,3 +1,5 @@
+using TwilightForestTerraria.Common;
+
 namespace TwilightForestTerraria.Content.Items.Armour.Phantom
 {
 	[AutoloadEquip(EquipType.Legs)]
@@ -7,14 +9,14 @@ namespace TwilightForestTerraria.Content.Items.Armour.Phantom
 		{
 			Item.width = 22;
 			Item.height = 18;
-			Item.defense = 7;
-			Item.value = Item.sellPrice(0, 8, 50, 0);
+			Item.value = ItemValue.SellPrices.PhantomArmor;
+			Item.rare = ItemRarityID.Yellow;
+			Item.defense = 17;
 		}
 		public override void UpdateEquip(Player player)
 		{
-			player.GetDamage(DamageClass.Generic) += 0.08f;
+			player.GetDamage(DamageClass.Generic) += 0.04f;
 			player.GetCritChance(DamageClass.Generic) += 0.04f;
-			player.moveSpeed += 0.05f;
 		}
 	}
 }

@@ -11,12 +11,13 @@ namespace TwilightForestTerraria.Content.Items.Armour.Knightly
 			Item.width = 32;
 			Item.height = 28;
 			Item.value = ItemValue.SellPrices.KnightmetalBar * 30;
-			Item.defense = 20;
-			Item.rare = ItemRarityID.LightRed;
+			Item.rare = ItemRarityID.Lime;
+			Item.defense = 24;
 		}
 		public override void UpdateEquip(Player player)
 		{
-			player.GetDamage(DamageClass.Melee) += 0.05f;
+			player.GetDamage(DamageClass.Melee) += 0.08f;
+			player.GetCritChance(DamageClass.Melee) += 0.10f;
 		}
 		public override void AddRecipes()
 		{
