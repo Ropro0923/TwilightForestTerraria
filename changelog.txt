@@ -1,13 +1,12 @@
 v0.1
 Added Icon - Sprite needed - Mini sprite needed
-Added Naga Scales - Item sprite needed
+Added Naga Scales
 Added Naga Scale Helmet - Item sprite needed - Head sprite needed
 Added Naga Scale Tunic - Item sprite needed - Body sprite needed
-Added Naga Scale Leggings - Item sprite needed - Legs sprite needed
+Added Naga Scale Boots - Item sprite needed - Legs sprite needed
 Added Naga Trophy - Item sprite needed - Tile sprite needed
-Added Raven Feather - SpRarite needed
-Added Magic Map Focus - Sprite needed
-Added Torchberries - Item sprite needed - Tile sprite needed - Seed sprite needed
+Added Raven Feather
+Added Magic Map Focus
 Added Hydra Trophy Item - Sprite Needed
 Added Hydra Trophy Tile - Sprite Needed
 Added Minoshroom Trophy Item - Sprite Needed
@@ -22,10 +21,10 @@ Added Twilight Lich Trophy Item - Sprite Needed
 Added Twilight Lich Trophy Tile - Sprite Needed
 Added Ur-Ghast Trophy Item - Sprite Needed
 Added Ur-Ghast Trophy Tile - Sprite Needed
-Added Arctic Fur - Sprite Needed
+Added Arctic Fur
 Added Arctic Hood - Item sprite needed - Head sprite needed
 Added Arctic Jacket - Item sprite needed - Body sprite needed
-Added Arctic Leggings - Item sprite needed - Legs sprite needed
+Added Arctic Boots - Item sprite needed - Legs sprite needed
 Added Hydra Relic Tile - Sprite Needed - Colored Sprite Need
 Added Minoshroom Relic Tile - Sprite Needed - Colored Sprite Need
 Added Naga Relic Tile - Sprite Needed - Colored Sprite Need
@@ -42,14 +41,32 @@ Added Questing Ram Relic Item - Sprite Needed - Colored Sprite Need
 Added Snow Queen Relic Item - Sprite Needed - Colored Sprite Need
 Added Twilight Lich Relic Item - Sprite Needed - Colored Sprite Need
 Added Ur-Ghast Relic Item - Sprite Needed - Colored Sprite Need
-Added Fiery Blood - Sprite Needed
+Added Fiery Blood
 Added Fiery Helmet - Sprite Needed - Head Sprite Needed
 Added Fiery Chestplate - Sprite Needed - Body Sprite Needed
-Added Fiery Leggings - Sprite Needed - Legs Sprite Needed
+Added Fiery Boots - Sprite Needed - Legs Sprite Needed
 Added Fiery Bar
 Added Ironwood Helmet - Sprite Needed - Head Sprite Needed
 Added Ironwood Chestplate - Sprite Needed - Body Sprite Needed
-Added Ironwood Leggings - Sprite Needed - Legs Sprite Needed
+Added Ironwood Boots - Sprite Needed - Legs Sprite Needed
 Added Ironwood Bar - Sprite Needed
 Added Raw Ironwood Materials - Sprite Needed
 Added Liveroot - Sprite Needed
+Added Knightly Helmet - Sprite Needed - Head Sprite Needed
+Added Knightly Chestplate - Sprite Needed - Body Sprite Needed
+Added Knightly Boots - Sprite Needed - Legs Sprite Needed
+Added Knightmetal Bar - Sprite Needed
+Added Armor shard
+Added Armor shard cluster
+Added Fiery Bar Placed Tile 
+Added Ironwood Bar Placed Tile
+Added Knightmetal Bar Placed Tile 
+Added Fiery Mask - Sprite needed - Head sprite needed
+Added Phantom Helmet - Sprite Needed - Head Sprite Needed
+Added Phantom Chestplate - Sprite Needed - Body Sprite Needed
+Added Phantom Boots - Sprite Needed - Legs Sprite Needed
+Added Steeleaf Hat - Sprite Needed - Head Sprite Needed
+Added Steeleaf Headpiece - Sprite Needed - Head Sprite Needed
+Added Steeleaf Chestplate - Sprite Needed - Body Sprite Needed
+Added Steeleaf Boots - Sprite Needed - Legs Sprite Needed
+Added Steeleaf - Sprite needed

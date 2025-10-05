@@ -1,4 +1,5 @@
-﻿using TwilightForestTerraria.Content.Items.Materials.Crafting;
+﻿using TwilightForestTerraria.Common;
+using TwilightForestTerraria.Content.Items.Materials.Crafting;
 
 namespace TwilightForestTerraria.Content.Items.Armour.Ironwood
 {
@@ -7,9 +8,10 @@ namespace TwilightForestTerraria.Content.Items.Armour.Ironwood
 	{
 		public override void SetDefaults()
 		{
-			Item.width = 18;
-			Item.height = 18;
-			Item.value = (Item.sellPrice(copper: 78) * 3 + ContentSamples.ItemsByType[ItemID.IronBar].value * 5 + ContentSamples.ItemsByType[ItemID.GoldBar].value) / 5 * 3 * 30;
+			Item.width = 32;
+			Item.height = 26;
+			Item.defense = 5;
+			Item.value = ItemValue.SellPrices.IronwoodBar * 30;
 		}
 		public override void AddRecipes()
 		{

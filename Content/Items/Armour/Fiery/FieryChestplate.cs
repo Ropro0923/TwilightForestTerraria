@@ -1,4 +1,5 @@
-﻿using TwilightForestTerraria.Content.Items.Materials.Crafting;
+﻿using TwilightForestTerraria.Common;
+using TwilightForestTerraria.Content.Items.Materials.Crafting;
 
 namespace TwilightForestTerraria.Content.Items.Armour.Fiery
 {
@@ -7,12 +8,17 @@ namespace TwilightForestTerraria.Content.Items.Armour.Fiery
 	{
 		public override void SetDefaults()
 		{
-			Item.width = 18;
-			Item.height = 18;
+			Item.width = 32;
+			Item.height = 26;
 			Item.rare = ItemRarityID.Pink;
-			Item.defense = 12;
-			Item.value = Item.sellPrice(0, 1, 72, 22) * 30;
+			Item.defense = 19;
+			Item.value = ItemValue.SellPrices.FieryBar * 30;
 		}
+        public override void UpdateEquip(Player player)
+        {
+            player.GetDamage(DamageClass.Generic) += 0.12f;
+            player.GetCritChance(DamageClass.Generic) += 0.06f;
+        }
 		public override void AddRecipes()
 		{
 			CreateRecipe()

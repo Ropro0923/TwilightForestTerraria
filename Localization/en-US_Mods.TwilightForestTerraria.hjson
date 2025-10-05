@@ -6,22 +6,22 @@ Items: {
 
 	NagaScales: {
 		DisplayName: Naga Scales
-		Tooltip: Scales dropped by Naga
+		Tooltip: ""
 	}
 
 	NagaScaleHelmet: {
 		DisplayName: Naga Scale Helmet
-		Tooltip: A helmet made from Naga's Scales
+		Tooltip: ""
 	}
 
-	NagaScaleLeggings: {
-		DisplayName: Naga Scale Leggings
-		Tooltip: A pair of leggings made from Naga's Scales
+	NagaScaleBoots: {
+		DisplayName: Naga Scale Boots
+		Tooltip: ""
 	}
 
 	NagaScaleTunic: {
 		DisplayName: Naga Scale Tunic
-		Tooltip: A tunic made from Naga's Scales
+		Tooltip: ""
 	}
 
 	MagicMapFocus: {
@@ -36,11 +36,6 @@ Items: {
 
 	RavenFeather: {
 		DisplayName: Raven Feather
-		Tooltip: ""
-	}
-
-	TorchberrySeeds: {
-		DisplayName: Torchberry Seeds
 		Tooltip: ""
 	}
 
@@ -81,22 +76,22 @@ Items: {
 
 	ArcticFur: {
 		DisplayName: Arctic Fur
-		Tooltip: Fur from beasts in the snowy forest
+		Tooltip: ""
 	}
 
 	ArcticHood: {
 		DisplayName: Arctic Hood
-		Tooltip: A hood made of fur to keep you warm
+		Tooltip: ""
 	}
 
 	ArcticJacket: {
 		DisplayName: Arctic Jacket
-		Tooltip: A warm jacket made of fur
+		Tooltip: ""
 	}
 
-	ArcticLeggings: {
-		DisplayName: Arctic Leggings
-		Tooltip: A pair of warm leggings
+	ArcticBoots: {
+		DisplayName: Arctic Boots
+		Tooltip: ""
 	}
 
 	UrGhastRelic: {
@@ -139,30 +134,61 @@ Items: {
 		DisplayName: Hydra Relic
 	}
 
-	FieryHelmet: {
+	FieryMaskRanged: {
+		DisplayName: Fiery Mask
+		Tooltip:
+			'''
+			20% increased ranged damage
+			8% increased ranged critical strike chance
+			'''
+	}
+
+	FieryHelmetMelee: {
 		DisplayName: Fiery Helmet
-		Tooltip: A blazing helmet made from fiery steel
+		Tooltip:
+			'''
+			20% increased melee damage
+			8% increased melee critical strike chance
+			'''
+	}
+
+	SteeleafHeadpieceMagic: {
+		DisplayName: Fiery Headgear
+		Tooltip:
+			'''
+			20% increased magic damage
+			Increases maximum mana by 60 and 15% reduced mana cost
+			'''
 	}
 
 	FieryChestplate: {
 		DisplayName: Fiery Chestplate
-		Tooltip: A blistering chestplate made from fiery steel
+		Tooltip:
+			'''
+			12% increased damage
+			6% increased critical strike chance
+			'''
 	}
 
-	FieryLeggings: {
-		DisplayName: Fiery Leggings
-		Tooltip: A burning pair of leggings made from fiery steel
+	FieryBoots: {
+		DisplayName: Fiery Boots
+		Tooltip:
+			'''
+			8% increased critical strike chance
+			15% increased movement speed
+			'''
 	}
 
 	FieryBlood: {
 		DisplayName: Fiery Blood
-		Tooltip: Superheated blood dropped by the Hydra
+		Tooltip: ""
 	}
 
 	FieryBar: {
 		DisplayName: Fiery Bar
-		Tooltip: Metal that has been superheated by hydra's blood
+		Tooltip: ""
 	}
+
 	IronwoodHelmet: {
 		DisplayName: Ironwood Helmet
 		Tooltip: ""
@@ -173,9 +199,8 @@ Items: {
 		Tooltip: ""
 	}
 
-
-	IronwoodLeggings: {
-		DisplayName: Ironwood Leggings
+	IronwoodBoots: {
+		DisplayName: Ironwood Boots
 		Tooltip: ""
 	}
 
@@ -191,6 +216,123 @@ Items: {
 
 	RawIronwoodMaterials: {
 		DisplayName: Raw Ironwood Materials
+		Tooltip: A strange mixture of iron, gold, and liveroot
+	}
+
+	KnightlyChestplate: {
+		DisplayName: Knightly Chestplate
+		Tooltip: 5% increased melee damage
+	}
+
+	KnightlyHelmet: {
+		DisplayName: Knightly Helmet
+		Tooltip:
+			'''
+			5% increased melee damage
+			10% increased melee critical strike chance
+			'''
+	}
+
+	KnightlyBoots: {
+		DisplayName: Knightly Boots
+		Tooltip:
+			'''
+			5% increased melee damage
+			10% increased movement speed
+			'''
+	}
+
+	ArmorShard: {
+		DisplayName: Armor Shard
+		Tooltip: ""
+	}
+
+	ArmorShardCluster: {
+		DisplayName: Armor Shard Cluster
+		Tooltip: ""
+	}
+
+	KnightmetalBar: {
+		DisplayName: Knightmetal Bar
+		Tooltip: ""
+	}
+
+	PhantomChestplate: {
+		DisplayName: Phantom Chestplate
+		Tooltip:
+			'''
+			8% increased damage
+			4% increased critical strike chance
+			'''
+	}
+
+	PhantomHelmet: {
+		DisplayName: Phantom Helmet
+		Tooltip:
+			'''
+			8% increased damage
+			4% increased critical strike chance
+			'''
+	}
+
+	PhantomBoots: {
+		DisplayName: Phantom Boots
+		Tooltip:
+			'''
+			8% increased damage
+			4% increased critical strike chance
+			'''
+	}
+
+	SteeleafHatSummon: {
+		DisplayName: Steeleaf Hat
+		Tooltip:
+			'''
+			20% increased summon damage
+			8% increased summon critical strike chance
+			'''
+	}
+
+	SteeleafChestplate: {
+		DisplayName: Steeleaf Chestplate
+		Tooltip:
+			'''
+			8% increased damage
+			5% increased critical strike chance
+			'''
+	}
+
+	SteeleafBoots: {
+		DisplayName: Steeleaf Boots
+		Tooltip:
+			'''
+			8% increased damage
+			15% increased movement speed
+			'''
+	}
+
+	Steeleaf: {
+		DisplayName: Steeleaf
+		Tooltip: ""
+	}
+
+	YetiBoots: {
+		DisplayName: Yeti Boots
+		Tooltip: ""
+	}
+
+	YetiHornedHelm: {
+		DisplayName: Yeti Horned Helm
+		Tooltip: ""
+	}
+
+	YetiJacket: {
+		DisplayName: Yeti Jacket
+		Tooltip: ""
+	}
+
+	AlphaYetiFur: {
+		DisplayName: Alpha Yeti Fur
 		Tooltip: ""
 	}
 }
@@ -202,11 +344,22 @@ SetBonus: {
 		You are immune to cold-based debuffs
 		You can venture through the snowy forest
 		'''
-	Fiery: Enemies that hit you are lit on fire
-	Ironwood: Increased movement speed and jump height
+	FieryMelee: Enemies that hit you are lit on fire
+	FieryRanged:
+		'''
+		Enemies that hit you are lit on fire
+		25% chance to save ammo
+		'''
+	SteeleafMagic:
+		'''
+		Enemies that hit you are lit on fire
+		10% increased magic critical strike chance
+		'''
+	Ironwood: 3 defense, increased movement speed, and increased jump height
+	Knightly: 5 defense, 5% increased melee damage
+	Phantom: 4% increased damage and critical strike chance
+	SteeleafSummon: 1 extra minion slot and 1 extra sentry slot
 }
-
-Tiles.TorchberryBush.MapEntry: Torchberry Bush
 
 Configs: {
 	TwilightForestTerrariaConfig: {

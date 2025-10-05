@@ -1,17 +1,23 @@
-﻿using TwilightForestTerraria.Content.Items.Materials.Crafting;
+﻿using TwilightForestTerraria.Common;
+using TwilightForestTerraria.Content.Items.Materials.Crafting;
 
 namespace TwilightForestTerraria.Content.Items.Armour.Fiery
 {
 	[AutoloadEquip(EquipType.Legs)]
-	public class FieryLeggings : ModItem
+	public class FieryBoots : ModItem
 	{
 		public override void SetDefaults()
 		{
-			Item.width = 18;
+			Item.width = 32;
 			Item.height = 18;
-			Item.value = Item.sellPrice(0, 1, 72, 22) * 25;
+			Item.value = ItemValue.SellPrices.FieryBar * 25;
 			Item.rare = ItemRarityID.Pink;
 			Item.defense = 12;
+		}
+		public override void UpdateEquip(Player player)
+		{
+			player.GetCritChance(DamageClass.Generic) += 0.08f;
+			player.moveSpeed += 0.15f;
 		}
 		public override void AddRecipes()
 		{

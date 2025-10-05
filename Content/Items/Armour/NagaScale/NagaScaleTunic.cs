@@ -1,4 +1,5 @@
-﻿using TwilightForestTerraria.Content.Items.Materials.Boss;
+﻿using TwilightForestTerraria.Common;
+using TwilightForestTerraria.Content.Items.Materials.Boss;
 
 namespace TwilightForestTerraria.Content.Items.Armour.NagaScale
 {
@@ -7,11 +8,11 @@ namespace TwilightForestTerraria.Content.Items.Armour.NagaScale
 	{
 		public override void SetDefaults()
 		{
-			Item.width = 18;
-			Item.height = 18;
+			Item.width = 32;
+			Item.height = 26;
 			Item.rare = ItemRarityID.Blue;
 			Item.defense = 8;
-			Item.value = Item.sellPrice(0, 0, 1, 12) * 30;
+			Item.value = ItemValue.SellPrices.NagaScales * 30;
 		}
 		public override void AddRecipes()
 		{

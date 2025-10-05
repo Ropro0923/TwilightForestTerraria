@@ -4,7 +4,7 @@ namespace TwilightForestTerraria.Content.Items.Materials.Crafting
     {
         public override void SetDefaults()
         {
-            Item.width = 20;
+            Item.width = 24;
             Item.height = 20;
         }
 	}

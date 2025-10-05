@@ -1,13 +1,17 @@
-    namespace TwilightForestTerraria.Content.Items.Materials.Crafting
+using TwilightForestTerraria.Common;
+using TwilightForestTerraria.Content.Tiles.PlacedBars;
+
+namespace TwilightForestTerraria.Content.Items.Materials.Crafting
 {
     public class IronwoodBar : ModItem
     {
         public override void SetDefaults()
         {
-            Item.width = 20;
-            Item.height = 20;
+            Item.width = 32;
+            Item.height = 24;
             Item.maxStack = Item.CommonMaxStack;
-            Item.value = (Item.sellPrice(copper: 78) * 3 + ContentSamples.ItemsByType[ItemID.IronBar].value * 5 + ContentSamples.ItemsByType[ItemID.GoldBar].value) / 5 * 3;
+            Item.value = ItemValue.SellPrices.IronwoodBar;
+            Item.DefaultToPlaceableTile(ModContent.TileType<IronwoodBarPlaced>());
         }
         public override void AddRecipes()
         {

@@ -1,3 +1,5 @@
+using TwilightForestTerraria.Common;
+
 namespace TwilightForestTerraria.Content.Items.Placeables.Trophies
 {
     public abstract class TwilightTrophy : ModItem
@@ -8,7 +10,7 @@ namespace TwilightForestTerraria.Content.Items.Placeables.Trophies
             Item.DefaultToPlaceableTile(Mod.TryFind($"{Trophy}TrophyTile", out ModTile Tile) ? Tile.Type : 0, 0);
             Item.width = 32;
             Item.height = 32;
-            Item.value = ContentSamples.ItemsByType[ItemID.EaterofWorldsTrophy].value;
+            Item.value = ItemValue.SellPrices.Trophy;
             Item.rare = ItemRarityID.Blue;
         }
     }

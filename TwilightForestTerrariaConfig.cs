@@ -9,6 +9,7 @@ namespace TwilightForestTerraria
         public override void OnLoaded() => Instance = this;
         public override void OnChanged() => Instance = this;
         public override ConfigScope Mode => ConfigScope.ServerSide;
+        
         #region Miscellaneous
         [Header("Miscellaneous")]
         [DefaultValue(true)]

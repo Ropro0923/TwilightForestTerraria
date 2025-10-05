@@ -1,17 +1,23 @@
-﻿using TwilightForestTerraria.Content.Items.Materials.Crafting;
+﻿using TwilightForestTerraria.Common;
+using TwilightForestTerraria.Content.Items.Materials.Crafting;
 
 namespace TwilightForestTerraria.Content.Items.Armour.Arctic
 {
 	[AutoloadEquip(EquipType.Legs)]
-	public class ArcticLeggings : ModItem
+	public class ArcticBoots : ModItem
 	{
+		public override void Load()
+		{
+			if (Main.netMode == NetmodeID.Server) 
+				return;
+		}
 		public override void SetDefaults()
 		{
-			Item.width = 18;
+			Item.width = 32;
 			Item.height = 18;
 			Item.rare = ItemRarityID.Green;
-			Item.defense = 6;
-			Item.value = Item.sellPrice(0, 0, 3, 20) * 25;
+			Item.vanity = true;
+			Item.value = ItemValue.SellPrices.ArcticFur * 25;
 		}
 		public override void AddRecipes()
 		{

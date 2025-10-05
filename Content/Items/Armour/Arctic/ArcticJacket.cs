@@ -1,4 +1,4 @@
-﻿using TwilightForestTerraria.Content.Items.Materials.Boss;
+﻿using TwilightForestTerraria.Common;
 using TwilightForestTerraria.Content.Items.Materials.Crafting;
 
 namespace TwilightForestTerraria.Content.Items.Armour.Arctic
@@ -6,13 +6,18 @@ namespace TwilightForestTerraria.Content.Items.Armour.Arctic
 	[AutoloadEquip(EquipType.Body)]
 	public class ArcticJacket : ModItem
 	{
+		public override void Load()
+		{
+			if (Main.netMode == NetmodeID.Server) 
+				return;
+		}
 		public override void SetDefaults()
 		{
-			Item.width = 18;
-			Item.height = 18;
-			Item.defense = 6;
+			Item.width = 34;
+			Item.height = 32;
+			Item.vanity = true;
 			Item.rare = ItemRarityID.Green;
-			Item.value = Item.sellPrice(0, 0, 3, 20) * 30;
+			Item.value = ItemValue.SellPrices.ArcticFur * 30;
 		}
 		public override void AddRecipes()
 		{

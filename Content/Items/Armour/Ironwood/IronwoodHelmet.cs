@@ -1,4 +1,5 @@
 ﻿using Terraria.Localization;
+using TwilightForestTerraria.Common;
 using TwilightForestTerraria.Content.Items.Materials.Crafting;
 
 namespace TwilightForestTerraria.Content.Items.Armour.Ironwood
@@ -8,16 +9,18 @@ namespace TwilightForestTerraria.Content.Items.Armour.Ironwood
 	{
 		public override void SetDefaults()
 		{
-			Item.width = 18;
+			Item.width = 20;
 			Item.height = 18;
-			Item.value = (Item.sellPrice(copper: 78) * 3 + ContentSamples.ItemsByType[ItemID.IronBar].value * 5 + ContentSamples.ItemsByType[ItemID.GoldBar].value) / 5 * 3 * 20;
+			Item.defense = 5;
+			Item.value = ItemValue.SellPrices.IronwoodBar * 20;
 		}
-		public override bool IsArmorSet(Item head, Item body, Item legs) => body.type == ModContent.ItemType<IronwoodChestplate>() && legs.type == ModContent.ItemType<IronwoodLeggings>();
+		public override bool IsArmorSet(Item head, Item body, Item legs) => body.type == ModContent.ItemType<IronwoodChestplate>() && legs.type == ModContent.ItemType<IronwoodBoots>();
 		public override void UpdateArmorSet(Player player)
 		{
-			player.moveSpeed += 0.10f;
-			player.jumpSpeedBoost += 1.0f;
 			player.setBonus = Language.GetTextValue("Mods.TwilightForestTerraria.SetBonus.Ironwood");
+			player.statDefense += 3;
+			player.moveSpeed += 0.6f;
+			player.jumpSpeedBoost += 1.5f;
 		}
 		public override void AddRecipes()
 		{

@@ -1,4 +1,6 @@
+using TwilightForestTerraria.Common;
 using TwilightForestTerraria.Content.Items.Materials.Boss;
+using TwilightForestTerraria.Content.Tiles.PlacedBars;
 
 namespace TwilightForestTerraria.Content.Items.Materials.Crafting
 {
@@ -6,24 +8,25 @@ namespace TwilightForestTerraria.Content.Items.Materials.Crafting
     {
         public override void SetDefaults()
         {
-            Item.width = 20;
-            Item.height = 20;
+            Item.width = 30;
+            Item.height = 24;
             Item.rare = ItemRarityID.Pink;
             Item.maxStack = Item.CommonMaxStack;
-			Item.value = Item.sellPrice(0, 1, 72, 22);
+            Item.value = ItemValue.SellPrices.FieryBar;
+            Item.DefaultToPlaceableTile(ModContent.TileType<FieryBarPlaced>());
         }
         public override void AddRecipes()
         {
             CreateRecipe()
                 .AddIngredient(ModContent.ItemType<FieryBlood>(), 3)
-                .AddIngredient(ItemID.AdamantiteBar)
-                .AddTile(TileID.AdamantiteForge)
+                .AddIngredient(ItemID.MythrilBar)
+                .AddTile(TileID.MythrilAnvil)
                 .Register();
 
             CreateRecipe()
                 .AddIngredient(ModContent.ItemType<FieryBlood>(), 3)
-                .AddIngredient(ItemID.TitaniumBar)
-                .AddTile(TileID.AdamantiteForge)
+                .AddIngredient(ItemID.OrichalcumBar)
+                .AddTile(TileID.MythrilAnvil)
                 .Register();
         }
 	}

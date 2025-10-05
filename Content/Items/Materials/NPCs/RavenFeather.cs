@@ -4,8 +4,8 @@ namespace TwilightForestTerraria.Content.Items.Materials.NPCs
 	{
 		public override void SetDefaults() 
 		{
-			Item.width = 20;
-			Item.height = 20;
+			Item.width = 24;
+			Item.height = 24;
 		}
 	}
 }
